@@ -1,5 +1,5 @@
 module Feedzirra
-  
+
   module Parser
     # == Summary
     # Parser for dealing with RSS feeds.
@@ -24,5 +24,5 @@ module Feedzirra
     end
 
   end
-  
+
 end

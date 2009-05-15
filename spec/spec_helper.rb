@@ -56,3 +56,7 @@ end
 def sample_wfw_feed
   load_sample("PaulDixExplainsNothingWFW.xml")
 end
+
+def sample_mrss_feed
+  load_sample("GoogleVideoSample.xml")
+end

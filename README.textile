@@ -166,6 +166,10 @@ Here are some more specific TODOs.
 * Clean up the fetching code inside feed.rb so it doesn't suck so hard.
 * Readdress how feeds determine if they can parse a document. Maybe I should use namespaces instead?
 
+h2. Updates from the original
+
+* Add in Media RSS support that should handle the spec with multiple content entries.
+
 h2. LICENSE
 
 (The MIT License)
