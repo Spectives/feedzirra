@@ -1,4 +1,4 @@
-require 'feedzirra/parser/mrss_content'
+require File.dirname(__FILE__) + '/mrss_content'
 
 module Feedzirra
 
