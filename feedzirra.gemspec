@@ -20,6 +20,8 @@ Gem::Specification.new do |s|
     "lib/feedzirra/parser/itunes_rss.rb",
     "lib/feedzirra/parser/itunes_rss_item.rb",
     "lib/feedzirra/parser/itunes_rss_owner.rb",
+    "feedzirra/parser/itunes_rss_category.rb",
+    "feedzirra/parser/itunes_rss_sub_category.rb",
     "lib/feedzirra/parser/rss.rb",
     "lib/feedzirra/parser/rss_entry.rb",
     "lib/feedzirra/parser/mrss_content.rb",

@@ -1,5 +1,5 @@
 module Feedzirra
-  
+
   module Parser
     # iTunes is RSS 2.0 + some apple extensions
     # Source: http://www.apple.com/itunes/whatson/podcasts/specs.html
@@ -33,7 +33,9 @@ module Feedzirra
       # ...and multiple sub-categories per category
       # TODO subcategories not supported correctly - they are at the same level
       #   as the main categories
-      elements :"itunes:category", :as => :itunes_categories, :value => :text
+      elements :'itunes:category', :as => :itunes_categories,
+        :class => ITunesRSSCategory
+
 
       elements :"itunes:owner", :as => :itunes_owners, :class => ITunesRSSOwner
 
@@ -44,7 +46,7 @@ module Feedzirra
       end
 
     end
-    
+
   end
-  
+
 end
