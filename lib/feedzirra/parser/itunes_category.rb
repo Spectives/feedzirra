@@ -3,8 +3,8 @@ module Feedzirra
   module Parser
     # iTunes extensions to the standard RSS2.0 item
     # Source: http://www.apple.com/itunes/whatson/podcasts/specs.html
-    class ITunesRSS
-      class ITunesRSSCategory
+    class RSS
+      class ITunesCategory
         include SAXMachine
         include FeedEntryUtilities
 

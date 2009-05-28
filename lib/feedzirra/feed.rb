@@ -47,7 +47,6 @@ module Feedzirra
     # A array of class names.
     def self.feed_classes
       @feed_classes ||= [
-        Feedzirra::Parser::ITunesRSS,
         Feedzirra::Parser::RSS,
         Feedzirra::Parser::AtomFeedBurner,
         Feedzirra::Parser::Atom

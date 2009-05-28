@@ -56,7 +56,7 @@ describe Feedzirra::Feed do
 
         # Since the commit 621957879, iTunes feeds will be parsed as standard RSS, so this
         # entry should now not have a method for itunes_author.
-        feed.entries.first.should respond_to(:itunes_author)
+        feed.entries.first.should_not respond_to(:itunes_author)
         feed.entries.size.should == 4
       end
     end
@@ -98,8 +98,8 @@ describe Feedzirra::Feed do
       Feedzirra::Feed.determine_feed_parser_for_xml(sample_rss_feed).should == Feedzirra::Parser::RSS
     end
 
-    it "should return a Feedzirra::Parser::ITunesRSS object for an itunes feed" do
-      Feedzirra::Feed.determine_feed_parser_for_xml(sample_itunes_feed).should == Feedzirra::Parser::ITunesRSS
+    it "should return a Feedzirra::Parser::RSS object for an itunes feed" do
+      Feedzirra::Feed.determine_feed_parser_for_xml(sample_itunes_feed).should == Feedzirra::Parser::RSS
     end
 
   end

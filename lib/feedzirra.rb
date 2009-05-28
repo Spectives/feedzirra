@@ -20,14 +20,11 @@ require 'feedzirra/feed'
 
 require 'feedzirra/parser/rss_entry'
 require 'feedzirra/parser/mrss_content'
-require 'feedzirra/parser/itunes_rss_owner'
-require 'feedzirra/parser/itunes_rss_entry'
-require 'feedzirra/parser/itunes_rss_category'
+require 'feedzirra/parser/itunes_category'
 require 'feedzirra/parser/atom_entry'
 require 'feedzirra/parser/atom_feed_burner_entry'
 
 require 'feedzirra/parser/rss'
-require 'feedzirra/parser/itunes_rss'
 require 'feedzirra/parser/atom'
 require 'feedzirra/parser/atom_feed_burner'
 
