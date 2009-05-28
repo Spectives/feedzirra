@@ -34,11 +34,14 @@ describe Feedzirra::Parser::ITunesRSS do
 
     it "should parse categories" do
       @feed.itunes_categories.size == 2
-      @feed.itunes_categories[0].name.should == "Technology"
-      @feed.itunes_categories[0].sub_categories.size.should == 1
-      @feed.itunes_categories[0].sub_categories[0].should == "Gadgets"
-      @feed.itunes_categories[1].name.should == "TV &amp; Film"
-      @feed.itunes_categories[1].sub_categories.size.should == 0
+      # @feed.itunes_categories[0].name.should == "Technology"
+      @feed.itunes_categories[0].should == "Technology"
+      # @feed.itunes_categories[0].sub_categories.size.should == 1
+      # @feed.itunes_categories[0].sub_categories[0].should == "Gadgets"
+      # @feed.itunes_categories[1].name.should == "TV &amp; Film"
+      @feed.itunes_categories[1].should == "Gadgets"
+      @feed.itunes_categories[2].should == "TV &#38; Film"
+      # @feed.itunes_categories[1].sub_categories.size.should == 0
     end
 
     it "should parse the summary" do
@@ -46,7 +49,17 @@ describe Feedzirra::Parser::ITunesRSS do
     end
 
     it "should parse entries" do
-      @feed.entries.size.should == 3
+      @feed.entries.size.should == 4
+    end
+
+    it "should assign an id even if no guid is present" do
+      @feed.entries.last.id.should == 'http://58.159.184.66/9darts/ipod/dai_throw.mp4'
+      @feed.entries.last.guid.should == 'http://58.159.184.66/9darts/ipod/dai_throw.mp4'
+    end
+
+    it "should not overwrite an existing id" do
+      # @feed.entries[2].id.should == 'http://example.com/podcasts/archive/aae20050601.mp3'
+      @feed.entries[2].guid.should == 'http://example.com/podcasts/archive/aae20050601.mp3'
     end
   end
 end

@@ -3,14 +3,18 @@ module Feedzirra
   module Parser
     # iTunes extensions to the standard RSS2.0 item
     # Source: http://www.apple.com/itunes/whatson/podcasts/specs.html
-    class ITunesRSSItem
+    class ITunesRSSEntry
       include SAXMachine
       include FeedEntryUtilities
       element :author
       element :guid
+      element :guid, :as => :id
+      element :enclosure, :value => :url, :as => :guid
+      element :enclosure, :value => :url, :as => :id
       element :title
       element :link, :as => :url
       element :description, :as => :summary
+      element :description, :as => :content
       element :pubDate, :as => :published
 
       # If author is not present use author tag on the item

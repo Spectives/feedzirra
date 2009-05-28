@@ -33,13 +33,14 @@ module Feedzirra
       # ...and multiple sub-categories per category
       # TODO subcategories not supported correctly - they are at the same level
       #   as the main categories
-      elements :'itunes:category', :as => :itunes_categories,
-        :class => ITunesRSSCategory
+      elements :"itunes:category", :as => :itunes_categories, :value => :text
+      # elements :'itunes:category', :as => :itunes_categories,
+      #   :class => ITunesRSSCategory
 
 
       elements :"itunes:owner", :as => :itunes_owners, :class => ITunesRSSOwner
 
-      elements :item, :as => :entries, :class => ITunesRSSItem
+      elements :item, :as => :entries, :class => ITunesRSSEntry
 
       def self.able_to_parse?(xml)
         xml =~ /xmlns:itunes=\"http:\/\/www.itunes.com\/dtds\/podcast-1.0.dtd\"/

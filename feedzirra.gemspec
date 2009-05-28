@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{feedzirra}
+  s.name = %q{UnderpantsGnome-feedzirra}
   s.version = "0.0.14"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -18,10 +18,9 @@ Gem::Specification.new do |s|
     "lib/feedzirra/parser/atom_feed_burner.rb",
     "lib/feedzirra/parser/atom_feed_burner_entry.rb",
     "lib/feedzirra/parser/itunes_rss.rb",
-    "lib/feedzirra/parser/itunes_rss_item.rb",
+    "lib/feedzirra/parser/itunes_rss_entry.rb",
     "lib/feedzirra/parser/itunes_rss_owner.rb",
-    "feedzirra/parser/itunes_rss_category.rb",
-    "feedzirra/parser/itunes_rss_sub_category.rb",
+    "lib/feedzirra/parser/itunes_rss_category.rb",
     "lib/feedzirra/parser/rss.rb",
     "lib/feedzirra/parser/rss_entry.rb",
     "lib/feedzirra/parser/mrss_content.rb",
@@ -36,7 +35,7 @@ Gem::Specification.new do |s|
     "spec/feedzirra/parser/atom_feed_burner_spec.rb",
     "spec/feedzirra/parser/atom_feed_burner_entry_spec.rb",
     "spec/feedzirra/parser/itunes_rss_spec.rb",
-    "spec/feedzirra/parser/itunes_rss_item_spec.rb",
+    "spec/feedzirra/parser/itunes_rss_entry_spec.rb",
     "spec/feedzirra/parser/itunes_rss_owner_spec.rb",
     "spec/feedzirra/parser/rss_spec.rb",
     "spec/feedzirra/parser/rss_entry_spec.rb",
