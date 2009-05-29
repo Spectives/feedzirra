@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
     "lib/feedzirra/parser/rss.rb",
     "lib/feedzirra/parser/rss_entry.rb",
     "lib/feedzirra/parser/mrss_content.rb",
+    "lib/feedzirra/parser/mrss_credit.rb",
     "lib/feedzirra/parser/mrss_restriction.rb",
     "lib/feedzirra/feed_utilities.rb",
     "lib/feedzirra/feed_entry_utilities.rb",
