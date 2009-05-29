@@ -82,4 +82,73 @@ describe Feedzirra::Parser::RSSEntry do
       @item.keywords.should == "salt, pepper, shaker, exciting"
     end
   end
+
+  describe "parsing Media RSS" do
+    before do
+      @item = Feedzirra::Parser::RSS.parse(sample_mrss_feed).entries.first
+    end
+
+    it "should parse media:rating" do
+      @item.rating.should == 'adult'
+      @item.rating_scheme.should == 'urn:simple'
+    end
+
+    it "should parse media:title" do
+      @item.media_title.should == 'The Montauk Monster-Hells Visits New York!'
+    end
+
+    it "should parse media:description" do
+      @item.media_description.should == 'The story began with a July 23 article in a local newspaper, The Independent. Jenna Hewitt, 26, of Montauk, and three friends said they found the ...'
+    end
+
+    it "should parse media:keywords" do
+      @item.media_keywords.should == 'kitty, cat, big dog, yarn, fluffy'
+    end
+
+    it "should parse media:tumbnail" do
+      @item.media_content.size.should == 1
+      @item.media_description.should == 'The story began with a July 23 article in a local newspaper, The Independent. Jenna Hewitt, 26, of Montauk, and three friends said they found the ...'
+      @item.media_thumbnail.should == 'http://3.gvt0.com/vi/Y3rNEu4A8WM/default.jpg'
+      @item.media_thumbnail_width.should == '320'
+      @item.media_thumbnail_height.should == '240'
+    end
+
+    it "should parse media:category" do
+      @item.media_category.should == 'Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_-_Pet_Detective'
+      @item.media_category_scheme.should == 'http://dmoz.org'
+      @item.media_category_label.should == 'Ace Ventura - Pet Detective'
+    end
+
+    it "should parse media:hash" do
+      @item.media_hash.should == 'dfdec888b72151965a34b4b59031290a'
+      @item.media_hash_algo.should == 'md5'
+    end
+
+    it "should parse media:player" do
+      @item.media_player_url.should == 'http://www.example.com/player?id=1111'
+      @item.media_player_width.should == '400'
+      @item.media_player_height.should == '200'
+    end
+
+    it "should parse media:credit" do
+      @item.credits.size.should == 2
+      @item.credits.first.role.should == 'producer'
+      @item.credits.first.scheme.should == 'urn:ebu'
+      pending 'not sure why the name isn\'t getting set'
+      @item.credits.first.name.should == 'John Doe'
+    end
+
+    it "should parse media:copyright" do
+      @item.copyright.should == '2009 Example Co.'
+      @item.copyright_url.should == 'http://example.com/copyright.html'
+    end
+
+    it "should parse media:restriction" do
+      pending 'need to figure out why this is getting String'
+      @item.media_restriction.type.should == 'MRSSRestriction'
+      @item.media_restriction.value.should == 'au us'
+      @item.media_restriction.scope.should == 'country'
+      @item.media_restriction.relationship.should == 'allow'
+    end
+  end
 end

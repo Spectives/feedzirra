@@ -11,6 +11,7 @@ require 'active_support/basic_object'
 require 'active_support/core_ext/object'
 require 'active_support/core_ext/time'
 
+
 require 'core_ext/date'
 require 'core_ext/string'
 
@@ -20,6 +21,7 @@ require 'feedzirra/feed'
 
 require 'feedzirra/parser/rss_entry'
 require 'feedzirra/parser/mrss_content'
+require 'feedzirra/parser/mrss_restriction'
 require 'feedzirra/parser/itunes_category'
 require 'feedzirra/parser/atom_entry'
 require 'feedzirra/parser/atom_feed_burner_entry'
@@ -29,5 +31,5 @@ require 'feedzirra/parser/atom'
 require 'feedzirra/parser/atom_feed_burner'
 
 module Feedzirra
-  VERSION = "0.0.15"
+  VERSION = "0.0.16"
 end

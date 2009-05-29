@@ -172,6 +172,8 @@ h2(#changes). Updates from Paul's tree
 
 * Add in Media RSS support that should handle the spec with multiple content entries.
 * Add in the missing support for nested iTunes Categories
+* Combined iTunes into RSS, removed extra files
+* Made element names more consistent across RSS and iTunes
 
 h2. LICENSE
 

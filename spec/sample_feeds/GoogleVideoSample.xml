@@ -27,7 +27,15 @@
         <media:title>The Montauk Monster-Hells Visits New York!</media:title>
         <media:description>The story began with a July 23 article in a local newspaper, The Independent. Jenna Hewitt, 26, of Montauk, and three friends said they found the ...</media:description>
         <media:thumbnail url="http://3.gvt0.com/vi/Y3rNEu4A8WM/default.jpg" width="320" height="240"/>
-        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DY3rNEu4A8WM&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFocve5mhgpCaiSpbY4qj2_fckwow"/>
+        <media:keywords>kitty, cat, big dog, yarn, fluffy</media:keywords>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:category scheme="http://dmoz.org" label="Ace Ventura - Pet Detective">Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_-_Pet_Detective</media:category>
+        <media:hash algo="md5">dfdec888b72151965a34b4b59031290a</media:hash>
+        <media:player url="http://www.example.com/player?id=1111" height="200" width="400" />
+        <media:credit role="producer" scheme="urn:ebu">John Doe</media:credit>
+        <media:credit role="director" scheme="urn:ebu">John Doe</media:credit>
+        <media:copyright url="http://example.com/copyright.html">2009 Example Co.</media:copyright>
+        <media:restriction relationship="allow" type="country">au us</media:restriction>
       </media:group>
       <enclosure url="http://www.youtube.com/v/Y3rNEu4A8WM&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
     </item>

@@ -1,17 +1,8 @@
 module Feedzirra
   module Parser
     class RSSEntry
-      # == Summary
-      # Parser for dealing with multiple media:content entries.
-      #
-      # == Attributes
-      # * url
-      # * content_type
-      # * medium
-      # * duration
       class MRSSContent
         include SAXMachine
-        include FeedEntryUtilities
 
         element :'media:content', :as => :url, :value => :url
         element :'media:content', :as => :content_type, :value => :type
