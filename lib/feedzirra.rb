@@ -20,6 +20,7 @@ require 'feedzirra/feed_entry_utilities'
 require 'feedzirra/feed'
 
 require 'feedzirra/parser/rss_entry'
+require 'feedzirra/parser/rss_image'
 require 'feedzirra/parser/mrss_content'
 require 'feedzirra/parser/mrss_restriction'
 require 'feedzirra/parser/itunes_category'

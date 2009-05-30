@@ -27,7 +27,7 @@ module Feedzirra
       element :docs
       element :cloud
       element :ttl
-      element :image
+      element :image, :class => RSSImage
       element :rating
       element :textInput
       element :skipHours

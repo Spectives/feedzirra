@@ -21,15 +21,15 @@ describe Feedzirra::Parser::RSS do
 
   describe "parsing" do
     before do
-      @feed = Feedzirra::Parser::RSS.parse(sample_rss_feed)
+      @feed = Feedzirra::Parser::RSS.parse(sample_mrss_feed)
     end
 
     it "should parse the title" do
-      @feed.title.should == "Tender Lovemaking"
+      @feed.title.should == "Google Video - Hot videos"
     end
 
     it "should parse the url" do
-      @feed.url.should == "http://tenderlovemaking.com"
+      @feed.url.should == "http://video.google.com/"
     end
 
     it "should provide an accessor for the feed_url" do
@@ -38,7 +38,17 @@ describe Feedzirra::Parser::RSS do
     end
 
     it "should parse entries" do
-      @feed.entries.size.should == 10
+      @feed.entries.size.should == 20
+    end
+
+    it "should parse the image" do
+      pending 'setting NilClass for some reason'
+      @feed.image.class.should == 'RSSImage'
+      @feed.image.title.should == 'Google Video - Hot videos'
+      @feed.image.link.should == 'http://video.google.com/'
+      @feed.image.url.should == 'http://video.google.com/common/google_logo_small.jpg'
+      @feed.image.width.should == '100'
+      @feed.image.height.should == '37'
     end
 
     describe "parsing an iTunes feed" do
