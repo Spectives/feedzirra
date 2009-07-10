@@ -94,9 +94,11 @@ module Feedzirra
           curl.timeout = options[:timeout] if options[:timeout]
 
           curl.on_success do |c|
+            c = c.select { |e| e.kind_of? Curl::Easy }.first if(c.kind_of? Array)
             responses[url] = decode_content(c)
           end
           curl.on_failure do |c|
+            c = c.select { |e| e.kind_of? Curl::Easy }.first if(c.kind_of? Array)
             responses[url] = c.response_code
           end
         end
@@ -213,6 +215,7 @@ module Feedzirra
         curl.timeout = options[:timeout] if options[:timeout]
         
         curl.on_success do |c|
+          c = c.select { |e| e.kind_of? Curl::Easy }.first if(c.kind_of? Array)
           add_url_to_multi(multi, url_queue.shift, url_queue, responses, options) unless url_queue.empty?
           xml = decode_content(c)
           klass = determine_feed_parser_for_xml(xml)
@@ -236,6 +239,7 @@ module Feedzirra
         end
         
         curl.on_failure do |c|
+          c = c.select { |e| e.kind_of? Curl::Easy }.first if(c.kind_of? Array)
           add_url_to_multi(multi, url_queue.shift, url_queue, responses, options) unless url_queue.empty?
           responses[url] = c.response_code
           options[:on_failure].call(url, c.response_code, c.header_str, c.body_str) if options.has_key?(:on_failure)
@@ -270,6 +274,7 @@ module Feedzirra
         curl.timeout = options[:timeout] if options[:timeout]
 
         curl.on_success do |c|
+          c = c.select { |e| e.kind_of? Curl::Easy }.first if(c.kind_of? Array)
           begin
             add_feed_to_multi(multi, feed_queue.shift, feed_queue, responses, options) unless feed_queue.empty?
             updated_feed = Feed.parse(c.body_str)
@@ -285,6 +290,7 @@ module Feedzirra
         end
 
         curl.on_failure do |c|
+          c = c.select { |e| e.kind_of? Curl::Easy }.first if(c.kind_of? Array)
           add_feed_to_multi(multi, feed_queue.shift, feed_queue, responses, options) unless feed_queue.empty?
           response_code = c.response_code
           if response_code == 304 # it's not modified. this isn't an error condition
