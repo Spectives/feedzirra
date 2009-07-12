@@ -1,3 +1,5 @@
+"Changes made from Paul's tree":#changes
+
 h1. Feedzirra
 
 "http://github.com/pauldix/feedzirra/tree/master":http://github.com/pauldix/feedzirra/tree/master 
@@ -167,6 +169,13 @@ Here are some more specific TODOs.
 * Test against Ruby 1.9.1 and fix any bugs.
 * Clean up the fetching code inside feed.rb so it doesn't suck so hard.
 * Readdress how feeds determine if they can parse a document. Maybe I should use namespaces instead?
+
+h2(#changes). Updates from Paul's tree
+
+* Add in Media RSS support that should handle the spec with multiple content entries.
+* Add in the missing support for nested iTunes Categories
+* Combined iTunes into RSS, removed extra files
+* Made element names more consistent across RSS and iTunes
 
 h2. LICENSE
 

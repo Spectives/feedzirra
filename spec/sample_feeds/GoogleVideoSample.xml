@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Google Video - Hot videos</title>
+    <link>http://video.google.com/</link>
+    <description/>
+    <generator>Google Video</generator>
+    <image>
+      <title>Google Video - Hot videos</title>
+      <link>http://video.google.com/</link>
+      <url>http://video.google.com/common/google_logo_small.jpg</url>
+      <width>100</width>
+      <height>37</height>
+    </image>
+    <openSearch:startIndex>1</openSearch:startIndex>
+    <openSearch:itemsPerPage>20</openSearch:itemsPerPage>
+    <openSearch:totalResults>120</openSearch:totalResults>
+    <item>
+      <title>The Montauk Monster-Hells Visits New York!</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DY3rNEu4A8WM&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFocve5mhgpCaiSpbY4qj2_fckwow</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DY3rNEu4A8WM&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFocve5mhgpCaiSpbY4qj2_fckwow</guid>
+      <pubDate>Thu, 14 Aug 2008 16:08:34 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DY3rNEu4A8WM&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFocve5mhgpCaiSpbY4qj2_fckwow&gt;&lt;img src=http://3.gvt0.com/vi/Y3rNEu4A8WM/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;The story began with a July 23 article in a local newspaper, The Independent. Jenna Hewitt, 26, of Montauk, and three friends said they found the ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/Y3rNEu4A8WM&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="151" width="0" height="0"/>
+        <media:title>The Montauk Monster-Hells Visits New York!</media:title>
+        <media:description>The story began with a July 23 article in a local newspaper, The Independent. Jenna Hewitt, 26, of Montauk, and three friends said they found the ...</media:description>
+        <media:thumbnail url="http://3.gvt0.com/vi/Y3rNEu4A8WM/default.jpg" width="320" height="240"/>
+        <media:keywords>kitty, cat, big dog, yarn, fluffy</media:keywords>
+        <media:rating scheme="urn:simple">adult</media:rating>
+        <media:category scheme="http://dmoz.org" label="Ace Ventura - Pet Detective">Arts/Movies/Titles/A/Ace_Ventura_Series/Ace_Ventura_-_Pet_Detective</media:category>
+        <media:hash algo="md5">dfdec888b72151965a34b4b59031290a</media:hash>
+        <media:player url="http://www.example.com/player?id=1111" height="200" width="400" />
+        <media:credit role="producer" scheme="urn:ebu">John Doe</media:credit>
+        <media:credit role="director" scheme="urn:ebu">John Doe</media:credit>
+        <media:copyright url="http://example.com/copyright.html">2009 Example Co.</media:copyright>
+        <media:restriction relationship="allow" type="country">au us</media:restriction>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/Y3rNEu4A8WM&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>{Part 1} President Speaks @ Arizona State University Commencement</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DpvaM6sjLbuA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNG5ISKuzoB3K1XFj-oN9OCCW6c_2g</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DpvaM6sjLbuA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNG5ISKuzoB3K1XFj-oN9OCCW6c_2g</guid>
+      <pubDate>Wed, 13 May 2009 20:31:37 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DpvaM6sjLbuA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNG5ISKuzoB3K1XFj-oN9OCCW6c_2g&gt;&lt;img src=http://0.gvt0.com/vi/pvaM6sjLbuA/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;{Part 1} President Obama Speaks @ Arizona State University Commencement - 05/13/09&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/pvaM6sjLbuA&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="575" width="0" height="0"/>
+        <media:content url="http://www.youtube.com/v/pvaM6sjLbuA&amp;fs=2" type="video/mp4" medium="video" expression="full" duration="576" width="0" height="0"/>
+        <media:title>{Part 1} President Speaks @ Arizona State University Commencement</media:title>
+        <media:description>{Part 1} President Obama Speaks @ Arizona State University Commencement - 05/13/09</media:description>
+        <media:thumbnail url="http://0.gvt0.com/vi/pvaM6sjLbuA/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DpvaM6sjLbuA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNG5ISKuzoB3K1XFj-oN9OCCW6c_2g"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/pvaM6sjLbuA&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Kris Allen - Heartless (Live)</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DVrh0tUSn8FI&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNF51PK1a3Kif91ZuUh9r5wh6I2_aw</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DVrh0tUSn8FI&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNF51PK1a3Kif91ZuUh9r5wh6I2_aw</guid>
+      <pubDate>Tue, 12 May 2009 18:56:11 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DVrh0tUSn8FI&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNF51PK1a3Kif91ZuUh9r5wh6I2_aw&gt;&lt;img src=http://2.gvt0.com/vi/Vrh0tUSn8FI/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;Kris Allen singing Heartless. Live.
+Rate/Comment/Favorite/Subscribe :)&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/Vrh0tUSn8FI&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="111" width="0" height="0"/>
+        <media:title>Kris Allen - Heartless (Live)</media:title>
+        <media:description>Kris Allen singing Heartless. Live.
+Rate/Comment/Favorite/Subscribe :)</media:description>
+        <media:thumbnail url="http://2.gvt0.com/vi/Vrh0tUSn8FI/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DVrh0tUSn8FI&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNF51PK1a3Kif91ZuUh9r5wh6I2_aw"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/Vrh0tUSn8FI&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Kris Allen - Heartless // American Idol // Top 3 // May 12 2009</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJh3k3kqsmNA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNGYN8Z3E1sUT0b4hA-zE_V9BfsWsA</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJh3k3kqsmNA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNGYN8Z3E1sUT0b4hA-zE_V9BfsWsA</guid>
+      <pubDate>Tue, 12 May 2009 22:12:19 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJh3k3kqsmNA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNGYN8Z3E1sUT0b4hA-zE_V9BfsWsA&gt;&lt;img src=http://0.gvt0.com/vi/Jh3k3kqsmNA/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;http://pinurl.com/twitterads - earn money from your tweets!
+TM, ® and © FOX and its related entities. All rights reserved. AMERICAN IDOL ® is a ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/Jh3k3kqsmNA&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="111" width="0" height="0"/>
+        <media:title>Kris Allen - Heartless // American Idol // Top 3 // May 12 2009</media:title>
+        <media:description>http://pinurl.com/twitterads - earn money from your tweets!
+TM, ® and © FOX and its related entities. All rights reserved. AMERICAN IDOL ® is a ...</media:description>
+        <media:thumbnail url="http://0.gvt0.com/vi/Jh3k3kqsmNA/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJh3k3kqsmNA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNGYN8Z3E1sUT0b4hA-zE_V9BfsWsA"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/Jh3k3kqsmNA&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Insane Kirksville MO Tornado With Debris</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3D0uP0eDDag5A&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNH_tdl2E8qJCuk6O0WPkqkSc9abdQ</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3D0uP0eDDag5A&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNH_tdl2E8qJCuk6O0WPkqkSc9abdQ</guid>
+      <pubDate>Thu, 14 May 2009 00:03:56 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3D0uP0eDDag5A&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNH_tdl2E8qJCuk6O0WPkqkSc9abdQ&gt;&lt;img src=http://0.gvt0.com/vi/0uP0eDDag5A/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;On May 13th 2009, Matt Van Every leads Extreme Tornado Tours to within 100 feet of a violent tornado before they have to rapidly BACK UP! The ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/0uP0eDDag5A&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="98" width="0" height="0"/>
+        <media:title>Insane Kirksville MO Tornado With Debris</media:title>
+        <media:description>On May 13th 2009, Matt Van Every leads Extreme Tornado Tours to within 100 feet of a violent tornado before they have to rapidly BACK UP! The ...</media:description>
+        <media:thumbnail url="http://0.gvt0.com/vi/0uP0eDDag5A/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3D0uP0eDDag5A&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNH_tdl2E8qJCuk6O0WPkqkSc9abdQ"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/0uP0eDDag5A&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Tridentine Missa Cantata (Sung Latin Mass) for the Last Sunday after Pentecost</title>
+      <link>http://www.google.com/url?q=http://video.google.com/videoplay%3Fdocid%3D1872714663680800365&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEFRxuNJArNEKGLQYN4UkN-Dy6uZw</link>
+      <guid>http://www.google.com/url?q=http://video.google.com/videoplay%3Fdocid%3D1872714663680800365&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEFRxuNJArNEKGLQYN4UkN-Dy6uZw</guid>
+      <pubDate>Sat, 02 Dec 2006 00:00:00 PST</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://video.google.com/videoplay%3Fdocid%3D1872714663680800365&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEFRxuNJArNEKGLQYN4UkN-Dy6uZw&gt;&lt;img src=http://2.gvt0.com/ThumbnailServer2?app=vss&amp;contentid=a2e9d96e0ba84ade&amp;offsetms=2090000&amp;itag=w160&amp;sigh=DXCFDV0KTMQ70ouIuoUN6O-PWSg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;Missa Cantata, or sung Low Mass, offered on the Last Sunday after Pentecost at the Roman Catholic Parish of St. Nicholas of Chardonnet in Paris ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;video.google.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://video.google.com/s/5m4wvqKKQpk/googleplayer.swf?videoUrl=http://v15.lscache5.googlevideo.com/videoplayback%3Fid%3Da2e9d96e0ba84ade%26itag%3D5%26begin%3D0%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1242440462%26sparams%3Dip,ipbits,expire,id,itag%26signature%3D4CF444DC4D777A9E46DD6B60B1A5EB7719842187.1C230F706AE483C5E80AD03FF980F283362B7C56%26key%3Dck1&amp;thumbnailUrl=http://2.gvt0.com/ThumbnailServer2%3Fapp%3Dvss%26contentid%3Da2e9d96e0ba84ade%26offsetms%3D2090000%26itag%3Dw160%26sigh%3DDXCFDV0KTMQ70ouIuoUN6O-PWSg&amp;docid=1872714663680800365" type="application/x-shockwave-flash" medium="video" expression="full" duration="4408" width="0" height="0"/>
+        <media:content url="http://v15.lscache5.googlevideo.com/videoplayback?id=a2e9d96e0ba84ade&amp;itag=5&amp;begin=0&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1242440462&amp;sparams=ip,ipbits,expire,id,itag&amp;signature=4CF444DC4D777A9E46DD6B60B1A5EB7719842187.1C230F706AE483C5E80AD03FF980F283362B7C56&amp;key=ck1" type="video/x-flv" medium="video" expression="full" duration="4408"/>
+        <media:title>Tridentine Missa Cantata (Sung Latin Mass) for the Last Sunday after Pentecost</media:title>
+        <media:description>Missa Cantata, or sung Low Mass, offered on the Last Sunday after Pentecost at the Roman Catholic Parish of St. Nicholas of Chardonnet in Paris ...</media:description>
+        <media:thumbnail url="http://2.gvt0.com/ThumbnailServer2?app=vss&amp;contentid=a2e9d96e0ba84ade&amp;offsetms=2090000&amp;itag=w160&amp;sigh=DXCFDV0KTMQ70ouIuoUN6O-PWSg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://video.google.com/videoplay%3Fdocid%3D1872714663680800365&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEFRxuNJArNEKGLQYN4UkN-Dy6uZw"/>
+      </media:group>
+      <enclosure url="/s/5m4wvqKKQpk/googleplayer.swf?videoUrl=http://v15.lscache5.googlevideo.com/videoplayback%3Fid%3Da2e9d96e0ba84ade%26itag%3D5%26begin%3D0%26ip%3D0.0.0.0%26ipbits%3D0%26expire%3D1242440462%26sparams%3Dip,ipbits,expire,id,itag%26signature%3D4CF444DC4D777A9E46DD6B60B1A5EB7719842187.1C230F706AE483C5E80AD03FF980F283362B7C56%26key%3Dck1&amp;thumbnailUrl=http://2.gvt0.com/ThumbnailServer2%3Fapp%3Dvss%26contentid%3Da2e9d96e0ba84ade%26offsetms%3D2090000%26itag%3Dw160%26sigh%3DDXCFDV0KTMQ70ouIuoUN6O-PWSg&amp;docid=1872714663680800365" type="application/x-shockwave-flash"/>
+    </item>
+    <item>
+      <title>NEW MOON trailer</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DtUL26FDrqtQ&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFVC_LV8iR4K9XS-7erBijT-CrytQ</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DtUL26FDrqtQ&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFVC_LV8iR4K9XS-7erBijT-CrytQ</guid>
+      <pubDate>Mon, 11 May 2009 10:11:16 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DtUL26FDrqtQ&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFVC_LV8iR4K9XS-7erBijT-CrytQ&gt;&lt;img src=http://0.gvt0.com/vi/tUL26FDrqtQ/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;PLEASE READ and YOU´LL FIND ANSWER ON SOME OF YOUR QUESTIONS...No copyright infringement intended in the making of this video. It is purely fan ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/tUL26FDrqtQ&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="157" width="0" height="0"/>
+        <media:title>NEW MOON trailer</media:title>
+        <media:description>PLEASE READ and YOU´LL FIND ANSWER ON SOME OF YOUR QUESTIONS...No copyright infringement intended in the making of this video. It is purely fan ...</media:description>
+        <media:thumbnail url="http://0.gvt0.com/vi/tUL26FDrqtQ/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DtUL26FDrqtQ&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFVC_LV8iR4K9XS-7erBijT-CrytQ"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/tUL26FDrqtQ&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Soulja Boy Behind the scene Right On! Magazine Photo Shoot</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJlDF7JP7LF0&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNE2lZwRXSNNhpdHpgCt9T0YU79x9A</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJlDF7JP7LF0&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNE2lZwRXSNNhpdHpgCt9T0YU79x9A</guid>
+      <pubDate>Thu, 14 May 2009 03:27:18 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJlDF7JP7LF0&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNE2lZwRXSNNhpdHpgCt9T0YU79x9A&gt;&lt;img src=http://1.gvt0.com/vi/JlDF7JP7LF0/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;http://www.souljaboytellem.com&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/JlDF7JP7LF0&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="192" width="0" height="0"/>
+        <media:title>Soulja Boy Behind the scene Right On! Magazine Photo Shoot</media:title>
+        <media:description>http://www.souljaboytellem.com</media:description>
+        <media:thumbnail url="http://1.gvt0.com/vi/JlDF7JP7LF0/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJlDF7JP7LF0&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNE2lZwRXSNNhpdHpgCt9T0YU79x9A"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/JlDF7JP7LF0&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Chris Brown, Scooter Smiff, &amp; Mijo JERKIN. (PRANGER$/REJECTZ)</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dx3Yk_gE4gTc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNHrTaL555ukG6iarUbRwyv_pwWdFA</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dx3Yk_gE4gTc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNHrTaL555ukG6iarUbRwyv_pwWdFA</guid>
+      <pubDate>Tue, 12 May 2009 11:42:49 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dx3Yk_gE4gTc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNHrTaL555ukG6iarUbRwyv_pwWdFA&gt;&lt;img src=http://3.gvt0.com/vi/x3Yk_gE4gTc/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;chris brown and scooter and mijo reppin power rangers and rejects doin they thang jerkin.
+Song: They Love Me
+myspace.com/prominent14&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/x3Yk_gE4gTc&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="347" width="0" height="0"/>
+        <media:title>Chris Brown, Scooter Smiff, &amp; Mijo JERKIN. (PRANGER$/REJECTZ)</media:title>
+        <media:description>chris brown and scooter and mijo reppin power rangers and rejects doin they thang jerkin.
+Song: They Love Me
+myspace.com/prominent14</media:description>
+        <media:thumbnail url="http://3.gvt0.com/vi/x3Yk_gE4gTc/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dx3Yk_gE4gTc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNHrTaL555ukG6iarUbRwyv_pwWdFA"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/x3Yk_gE4gTc&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Eminem Beautiful CD Quality Full Music HQ</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DVZGHF9IM-bA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNH9Xu6iv0yvdBLMF8iJ7VOamR2aBw</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DVZGHF9IM-bA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNH9Xu6iv0yvdBLMF8iJ7VOamR2aBw</guid>
+      <pubDate>Tue, 12 May 2009 04:11:49 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DVZGHF9IM-bA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNH9Xu6iv0yvdBLMF8iJ7VOamR2aBw&gt;&lt;img src=http://0.gvt0.com/vi/VZGHF9IM-bA/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;Eminem Beautiful Itunes Leaked In High Quality&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/VZGHF9IM-bA&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="280" width="0" height="0"/>
+        <media:title>Eminem Beautiful CD Quality Full Music HQ</media:title>
+        <media:description>Eminem Beautiful Itunes Leaked In High Quality</media:description>
+        <media:thumbnail url="http://0.gvt0.com/vi/VZGHF9IM-bA/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DVZGHF9IM-bA&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNH9Xu6iv0yvdBLMF8iJ7VOamR2aBw"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/VZGHF9IM-bA&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Pokemon Sunday reveals HeartGold and SoulSilver Editions</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dlq9Xt3FJH80&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNHIP2xJIOUYaRcXwVhR-fNu5lQdvQ</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dlq9Xt3FJH80&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNHIP2xJIOUYaRcXwVhR-fNu5lQdvQ</guid>
+      <pubDate>Sat, 09 May 2009 17:20:16 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dlq9Xt3FJH80&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNHIP2xJIOUYaRcXwVhR-fNu5lQdvQ&gt;&lt;img src=http://1.gvt0.com/vi/lq9Xt3FJH80/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;http://www.pokexperto.net&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/lq9Xt3FJH80&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="421" width="0" height="0"/>
+        <media:title>Pokemon Sunday reveals HeartGold and SoulSilver Editions</media:title>
+        <media:description>http://www.pokexperto.net</media:description>
+        <media:thumbnail url="http://1.gvt0.com/vi/lq9Xt3FJH80/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dlq9Xt3FJH80&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNHIP2xJIOUYaRcXwVhR-fNu5lQdvQ"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/lq9Xt3FJH80&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>HD Kelly Clarkson - I Do Not Hook Up @ Tonight Show With Jay Leno Live With Intro And Outro</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DvpvOa57iLhU&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEPC2qwKl2TKjs-3xPm8Haaw16Bag</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DvpvOa57iLhU&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEPC2qwKl2TKjs-3xPm8Haaw16Bag</guid>
+      <pubDate>Wed, 13 May 2009 03:57:44 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DvpvOa57iLhU&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEPC2qwKl2TKjs-3xPm8Haaw16Bag&gt;&lt;img src=http://1.gvt0.com/vi/vpvOa57iLhU/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;Kelly Clarkson singing her second single from her 4th album All I Ever Wanted.
+I Do Not Hook Up:)&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/vpvOa57iLhU&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="235" width="0" height="0"/>
+        <media:title>HD Kelly Clarkson - I Do Not Hook Up @ Tonight Show With Jay Leno Live With Intro And Outro</media:title>
+        <media:description>Kelly Clarkson singing her second single from her 4th album All I Ever Wanted.
+I Do Not Hook Up:)</media:description>
+        <media:thumbnail url="http://1.gvt0.com/vi/vpvOa57iLhU/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DvpvOa57iLhU&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEPC2qwKl2TKjs-3xPm8Haaw16Bag"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/vpvOa57iLhU&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>In Search Of... Bigfoot (Part 1 of 3) Nimoy</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3D3z0S2zPNP6s&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEzh8BIGzZaQ5mBSYVOQrGEeb0kXQ</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3D3z0S2zPNP6s&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEzh8BIGzZaQ5mBSYVOQrGEeb0kXQ</guid>
+      <pubDate>Mon, 03 Dec 2007 17:22:15 PST</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3D3z0S2zPNP6s&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEzh8BIGzZaQ5mBSYVOQrGEeb0kXQ&gt;&lt;img src=http://3.gvt0.com/vi/3z0S2zPNP6s/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;Season 1, Episode 5 (4/28/1977)
+Part 1 of 3
+This episode investigates the Native American Legend of Bigfoot or "Sasquatch" as the Native ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/3z0S2zPNP6s&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="531" width="0" height="0"/>
+        <media:title>In Search Of... Bigfoot (Part 1 of 3) Nimoy</media:title>
+        <media:description>Season 1, Episode 5 (4/28/1977)
+Part 1 of 3
+This episode investigates the Native American Legend of Bigfoot or "Sasquatch" as the Native ...</media:description>
+        <media:thumbnail url="http://3.gvt0.com/vi/3z0S2zPNP6s/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3D3z0S2zPNP6s&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNEzh8BIGzZaQ5mBSYVOQrGEeb0kXQ"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/3z0S2zPNP6s&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Wash Post: Nancy Pelosi Was Briefed On Use Of "Enhanced Interrogations"</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJCWEHC4fbqI&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFE13q44lgpdWyyq4Rs9c_QWdyyag</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJCWEHC4fbqI&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFE13q44lgpdWyyq4Rs9c_QWdyyag</guid>
+      <pubDate>Fri, 08 May 2009 07:52:40 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJCWEHC4fbqI&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFE13q44lgpdWyyq4Rs9c_QWdyyag&gt;&lt;img src=http://2.gvt0.com/vi/JCWEHC4fbqI/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;http://earth2obama.org/
+May 07, 2009 MSNBC Rachel Maddow Show&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/JCWEHC4fbqI&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="591" width="0" height="0"/>
+        <media:title>Wash Post: Nancy Pelosi Was Briefed On Use Of "Enhanced Interrogations"</media:title>
+        <media:description>http://earth2obama.org/
+May 07, 2009 MSNBC Rachel Maddow Show</media:description>
+        <media:thumbnail url="http://2.gvt0.com/vi/JCWEHC4fbqI/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DJCWEHC4fbqI&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFE13q44lgpdWyyq4Rs9c_QWdyyag"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/JCWEHC4fbqI&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Kris Allen - Ain't No Sunshine (Homecoming - 5.8.09)</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DUBgedjpsQnY&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFsVcKGj-3Fd12l2xU-6U0mlScd2g</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DUBgedjpsQnY&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFsVcKGj-3Fd12l2xU-6U0mlScd2g</guid>
+      <pubDate>Fri, 08 May 2009 11:40:14 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DUBgedjpsQnY&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFsVcKGj-3Fd12l2xU-6U0mlScd2g&gt;&lt;img src=http://2.gvt0.com/vi/UBgedjpsQnY/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;Kris Allen comes home to Central Arkansas!
+Kris played a three song set to a crowd of 15,000 people gathered at Little Rock's Riverfront ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/UBgedjpsQnY&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="187" width="0" height="0"/>
+        <media:title>Kris Allen - Ain't No Sunshine (Homecoming - 5.8.09)</media:title>
+        <media:description>Kris Allen comes home to Central Arkansas!
+Kris played a three song set to a crowd of 15,000 people gathered at Little Rock's Riverfront ...</media:description>
+        <media:thumbnail url="http://2.gvt0.com/vi/UBgedjpsQnY/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DUBgedjpsQnY&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFsVcKGj-3Fd12l2xU-6U0mlScd2g"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/UBgedjpsQnY&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>[Lyrics] Kiss Me Through The Phone - Soulja Boy</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dfm3e1viDcPc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFANnY3H9aAek3lf1Ud4mUh97IYoA</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dfm3e1viDcPc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFANnY3H9aAek3lf1Ud4mUh97IYoA</guid>
+      <pubDate>Sat, 02 May 2009 15:08:41 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dfm3e1viDcPc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFANnY3H9aAek3lf1Ud4mUh97IYoA&gt;&lt;img src=http://3.gvt0.com/vi/fm3e1viDcPc/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;dedicated ; s2 vi. ;]
+No copyright intended . I do not own any of the music or programs used in this video .
+Lyrics ;
+Baby, u know that I ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/fm3e1viDcPc&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="191" width="0" height="0"/>
+        <media:title>[Lyrics] Kiss Me Through The Phone - Soulja Boy</media:title>
+        <media:description>dedicated ; s2 vi. ;]
+No copyright intended . I do not own any of the music or programs used in this video .
+Lyrics ;
+Baby, u know that I ...</media:description>
+        <media:thumbnail url="http://3.gvt0.com/vi/fm3e1viDcPc/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3Dfm3e1viDcPc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFANnY3H9aAek3lf1Ud4mUh97IYoA"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/fm3e1viDcPc&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Kobe and Lebron Puppet Commercial - MVP's Chalk FUNNY!</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DEsPndm2ff4Q&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNErAiMDyYjpyG7zE2OZyQEDfqzDTg</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DEsPndm2ff4Q&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNErAiMDyYjpyG7zE2OZyQEDfqzDTg</guid>
+      <pubDate>Tue, 12 May 2009 09:47:56 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DEsPndm2ff4Q&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNErAiMDyYjpyG7zE2OZyQEDfqzDTg&gt;&lt;img src=http://0.gvt0.com/vi/EsPndm2ff4Q/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;http://www.thebestplaypokeronline.com
+Puppet Lebron and Puppet Kobe star in Nike's new basketball commercial. Puppet Lebron got a little too ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/EsPndm2ff4Q&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="64" width="0" height="0"/>
+        <media:title>Kobe and Lebron Puppet Commercial - MVP's Chalk FUNNY!</media:title>
+        <media:description>http://www.thebestplaypokeronline.com
+Puppet Lebron and Puppet Kobe star in Nike's new basketball commercial. Puppet Lebron got a little too ...</media:description>
+        <media:thumbnail url="http://0.gvt0.com/vi/EsPndm2ff4Q/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DEsPndm2ff4Q&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNErAiMDyYjpyG7zE2OZyQEDfqzDTg"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/EsPndm2ff4Q&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Kris Allen - Heartless</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DaZWif4Bo3e8&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNGHv-bZlpHWjywY52Bk67GpDJwVig</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DaZWif4Bo3e8&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNGHv-bZlpHWjywY52Bk67GpDJwVig</guid>
+      <pubDate>Wed, 13 May 2009 12:22:09 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DaZWif4Bo3e8&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNGHv-bZlpHWjywY52Bk67GpDJwVig&gt;&lt;img src=http://3.gvt0.com/vi/aZWif4Bo3e8/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;May 12th Top 3.
+Kris Allen sings Heartless better then Kanye West!
+I love KRIS!!!&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/aZWif4Bo3e8&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="95" width="0" height="0"/>
+        <media:title>Kris Allen - Heartless</media:title>
+        <media:description>May 12th Top 3.
+Kris Allen sings Heartless better then Kanye West!
+I love KRIS!!!</media:description>
+        <media:thumbnail url="http://3.gvt0.com/vi/aZWif4Bo3e8/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DaZWif4Bo3e8&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNGHv-bZlpHWjywY52Bk67GpDJwVig"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/aZWif4Bo3e8&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Kanye West's 'Heartless' by Chris Mann</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DfyoYjXz9ZTc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNF9Y2d5xNUw29c8QPlB1xlxsqaH_Q</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DfyoYjXz9ZTc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNF9Y2d5xNUw29c8QPlB1xlxsqaH_Q</guid>
+      <pubDate>Mon, 13 Apr 2009 00:36:04 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DfyoYjXz9ZTc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNF9Y2d5xNUw29c8QPlB1xlxsqaH_Q&gt;&lt;img src=http://3.gvt0.com/vi/fyoYjXz9ZTc/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;Twitter @iamchrismann. Chris Mann sings Kanye West's 'Heartless' and asks MANNfans what heartbreak means to them. MANNfans sent in their words ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/fyoYjXz9ZTc&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="286" width="0" height="0"/>
+        <media:title>Kanye West's 'Heartless' by Chris Mann</media:title>
+        <media:description>Twitter @iamchrismann. Chris Mann sings Kanye West's 'Heartless' and asks MANNfans what heartbreak means to them. MANNfans sent in their words ...</media:description>
+        <media:thumbnail url="http://3.gvt0.com/vi/fyoYjXz9ZTc/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DfyoYjXz9ZTc&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNF9Y2d5xNUw29c8QPlB1xlxsqaH_Q"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/fyoYjXz9ZTc&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+    <item>
+      <title>Happy Tree Friends - False Alarm (HD)</title>
+      <link>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DzpZSBbqpZ3I&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFRxtizxpl14glczQ23aMZOCd4Ihw</link>
+      <guid>http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DzpZSBbqpZ3I&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFRxtizxpl14glczQ23aMZOCd4Ihw</guid>
+      <pubDate>Wed, 13 May 2009 14:33:24 PDT</pubDate>
+      <description>&lt;a href=http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DzpZSBbqpZ3I&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFRxtizxpl14glczQ23aMZOCd4Ihw&gt;&lt;img src=http://2.gvt0.com/vi/zpZSBbqpZ3I/default.jpg width=160 height=120&gt;&lt;/a&gt;&lt;br&gt;The complete episode from the Happy Tree Friends: False Alarm downloadable game. Nutty jumps out of the frying pan and into the fire when he quits ...&lt;p/&gt;&lt;div style="color:green;font-size:smaller;"&gt;www.youtube.com&lt;/div&gt;</description>
+      <author/>
+      <media:group>
+        <media:content url="http://www.youtube.com/v/zpZSBbqpZ3I&amp;fs=1" type="application/x-shockwave-flash" medium="video" expression="full" duration="186" width="0" height="0"/>
+        <media:title>Happy Tree Friends - False Alarm (HD)</media:title>
+        <media:description>The complete episode from the Happy Tree Friends: False Alarm downloadable game. Nutty jumps out of the frying pan and into the fire when he quits ...</media:description>
+        <media:thumbnail url="http://2.gvt0.com/vi/zpZSBbqpZ3I/default.jpg" width="320" height="240"/>
+        <media:player url="http://www.google.com/url?q=http://www.youtube.com/watch%3Fv%3DzpZSBbqpZ3I&amp;source=video&amp;vgc=hot_videos_rss&amp;usg=AFQjCNFRxtizxpl14glczQ23aMZOCd4Ihw"/>
+      </media:group>
+      <enclosure url="http://www.youtube.com/v/zpZSBbqpZ3I&amp;fs=1" type="application/x-shockwave-flash" length="400"/>
+    </item>
+  </channel>
+</rss>

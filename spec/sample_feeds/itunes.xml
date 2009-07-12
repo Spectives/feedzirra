@@ -56,5 +56,16 @@
 <itunes:keywords>politics, red, blue, state</itunes:keywords>
 </item>
  
+<item>
+<title>#17 DAI (松元 大奉）プロ スロー</title>
+<itunes:author>FILING.TV INC.</itunes:author>
+<itunes:summary>DAI (松元 大奉）プロ スロー・ビデオ</itunes:summary>
+<pubDate>wed, 25 Apr 2007 12:00:00 GMT</pubDate>
+<enclosure url="http://58.159.184.66/9darts/ipod/dai_throw.mp4" length="11100000" type="video/mp4" />
+<itunes:duration>02:25</itunes:duration>
+<itunes:keywords>9DARTS.TVダーツ,DARTS</itunes:keywords>
+<itunes:explicit>no</itunes:explicit>
+</item>
+
 </channel>
 </rss>

@@ -1,9 +1,9 @@
 module Feedzirra
   class NoParserAvailable < StandardError; end
-  
+
   class Feed
     USER_AGENT = "feedzirra http://github.com/pauldix/feedzirra/tree/master"
-    
+
     # Takes a raw XML feed and attempts to parse it. If no parser is available a Feedzirra::NoParserAvailable exception is raised.
     #
     # === Parameters
@@ -21,7 +21,7 @@ module Feedzirra
     end
 
     # Determines the correct parser class to use for parsing the feed.
-    # 
+    #
     # === Parameters
     # [xml<String>] The XML that you would like determine the parser for.
     # === Returns
@@ -37,7 +37,7 @@ module Feedzirra
     # [klass<Constant>] The class/constant that you want to register.
     # === Returns
     # A updated array of feed parser class names.
-    def self.add_feed_class(klass) 
+    def self.add_feed_class(klass)
       feed_classes.unshift klass
     end
 
@@ -46,10 +46,14 @@ module Feedzirra
     # === Returns
     # A array of class names.
     def self.feed_classes
-      @feed_classes ||= [Feedzirra::Parser::RSS, Feedzirra::Parser::AtomFeedBurner, Feedzirra::Parser::Atom]
+      @feed_classes ||= [
+        Feedzirra::Parser::RSS,
+        Feedzirra::Parser::AtomFeedBurner,
+        Feedzirra::Parser::Atom
+      ]
     end
-    
-    # Makes all entry types look for the passed in element to parse. This is actually just a call to 
+
+    # Makes all entry types look for the passed in element to parse. This is actually just a call to
     # element (a SAXMachine call) in the class
     #
     # === Parameters
@@ -62,7 +66,7 @@ module Feedzirra
         klass.send(:element, element_tag, options)
       end
     end
-    
+
     # Fetches and returns the raw XML for each URL provided.
     #
     # === Parameters
@@ -75,7 +79,7 @@ module Feedzirra
     #                 :on_failure - Block that gets executed after a failed request.
     # === Returns
     # A String of XML if a single URL is passed.
-    # 
+    #
     # A Hash if multiple URL's are passed. The key will be the URL, and the value the XML.
     def self.fetch_raw(urls, options = {})
       url_queue = [*urls]
@@ -127,13 +131,13 @@ module Feedzirra
       url_queue = [*urls]
       multi = Curl::Multi.new
       responses = {}
-      
+
       # I broke these down so I would only try to do 30 simultaneously because
       # I was getting weird errors when doing a lot. As one finishes it pops another off the queue.
       url_queue.slice!(0, 30).each do |url|
         add_url_to_multi(multi, url, url_queue, responses, options)
       end
- 
+
       multi.perform
       return urls.is_a?(String) ? responses.values.first : responses
     end
@@ -150,7 +154,7 @@ module Feedzirra
           gz =  Zlib::GzipReader.new(StringIO.new(c.body_str))
           xml = gz.read
           gz.close
-        rescue Zlib::GzipFile::Error 
+        rescue Zlib::GzipFile::Error
           # Maybe this is not gzipped?
           xml = c.body_str
         end
@@ -179,15 +183,15 @@ module Feedzirra
       feed_queue = [*feeds]
       multi = Curl::Multi.new
       responses = {}
-      
+
       feed_queue.slice!(0, 30).each do |feed|
         add_feed_to_multi(multi, feed, feed_queue, responses, options)
       end
-    
+
       multi.perform
       responses.size == 1 ? responses.values.first : responses.values
     end
-    
+
     # An abstraction for adding a feed by URL to the passed Curb::multi stack.
     #
     # === Parameters
@@ -219,7 +223,7 @@ module Feedzirra
           add_url_to_multi(multi, url_queue.shift, url_queue, responses, options) unless url_queue.empty?
           xml = decode_content(c)
           klass = determine_feed_parser_for_xml(xml)
-          
+
           if klass
             begin
               feed = klass.parse(xml)
@@ -237,7 +241,7 @@ module Feedzirra
             options[:on_failure].call(url, c.response_code, c.header_str, c.body_str) if options.has_key?(:on_failure)
           end
         end
-        
+
         curl.on_failure do |c|
           c = c.select { |e| e.kind_of? Curl::Easy }.first if(c.kind_of? Array)
           add_url_to_multi(multi, url_queue.shift, url_queue, responses, options) unless url_queue.empty?
@@ -247,7 +251,7 @@ module Feedzirra
       end
       multi.add(easy)
     end
-    
+
     # An abstraction for adding a feed by a Feed object to the passed Curb::multi stack.
     #
     # === Parameters
@@ -262,7 +266,7 @@ module Feedzirra
     #                 * :on_failure - Block that gets executed after a failed request.
     # === Returns
     # The updated Curl::Multi object with the request details added to it's stack.
-    def self.add_feed_to_multi(multi, feed, feed_queue, responses, options) 
+    def self.add_feed_to_multi(multi, feed, feed_queue, responses, options)
       easy = Curl::Easy.new(feed.feed_url) do |curl|
         curl.headers["User-Agent"]        = (options[:user_agent] || USER_AGENT)
         curl.headers["If-Modified-Since"] = feed.last_modified.httpdate if feed.last_modified
@@ -306,7 +310,7 @@ module Feedzirra
     end
 
     # Determines the etag from the request headers.
-    # 
+    #
     # === Parameters
     # [header<String>] Raw request header returned from the request
     # === Returns
