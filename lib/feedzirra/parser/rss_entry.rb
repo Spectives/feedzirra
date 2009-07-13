@@ -2,6 +2,14 @@ require File.dirname(__FILE__) + '/mrss_content'
 require File.dirname(__FILE__) + '/mrss_credit'
 require File.dirname(__FILE__) + '/mrss_restriction'
 require File.dirname(__FILE__) + '/mrss_group'
+require File.dirname(__FILE__) + '/mrss_category'
+require File.dirname(__FILE__) + '/mrss_copyright'
+require File.dirname(__FILE__) + '/mrss_hash'
+require File.dirname(__FILE__) + '/mrss_player'
+require File.dirname(__FILE__) + '/mrss_rating'
+require File.dirname(__FILE__) + '/mrss_restriction'
+require File.dirname(__FILE__) + '/mrss_text'
+require File.dirname(__FILE__) + '/mrss_thumbnail'
 
 module Feedzirra
   module Parser
@@ -44,7 +52,7 @@ module Feedzirra
       element :"dc:creator", :as => :author
       element :"dcterms:modified", :as => :updated
 
-      # MediaRSS support
+      # MediaRSS support, optional elements
       element :'media:title', :as => :media_title
       element :'media:keywords', :as => :media_keywords
       element :'media:description', :as => :media_description

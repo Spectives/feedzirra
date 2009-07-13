@@ -18,6 +18,7 @@ module Feedzirra
 
       elements :'media:content', :as => :media_content, :class => MRSSContent
 
+      # optional elements
       element :'media:title', :as => :media_title
       element :'media:keywords', :as => :media_keywords
       element :'media:description', :as => :media_description

@@ -1,4 +1,6 @@
 # -*- encoding: utf-8 -*-
+require 'rubygems'
+require 'rake'
 
 Gem::Specification.new do |s|
   s.name = %q{feedzirra}
@@ -7,37 +9,7 @@ Gem::Specification.new do |s|
   s.authors = ["Paul Dix"]
   s.date = %q{2009-02-19}
   s.email = %q{paul@pauldix.net}
-  s.files = [
-    "lib/core_ext/date.rb",
-    "lib/core_ext/string.rb",
-    "lib/feedzirra.rb",
-    "lib/feedzirra/feed.rb",
-    "lib/feedzirra/parser/atom.rb",
-    "lib/feedzirra/parser/atom_entry.rb",
-    "lib/feedzirra/parser/atom_feed_burner.rb",
-    "lib/feedzirra/parser/atom_feed_burner_entry.rb",
-    "lib/feedzirra/parser/itunes_category.rb",
-    "lib/feedzirra/parser/rss.rb",
-    "lib/feedzirra/parser/rss_entry.rb",
-    "lib/feedzirra/parser/rss_image.rb",
-    "lib/feedzirra/parser/mrss_content.rb",
-    "lib/feedzirra/parser/mrss_credit.rb",
-    "lib/feedzirra/parser/mrss_restriction.rb",
-    "lib/feedzirra/parser/mrss_group.rb",
-    "lib/feedzirra/feed_utilities.rb",
-    "lib/feedzirra/feed_entry_utilities.rb",
-    "README.textile", "Rakefile",
-    "spec/spec.opts",
-    "spec/spec_helper.rb",
-    "spec/feedzirra/feed_spec.rb",
-    "spec/feedzirra/parser/atom_spec.rb",
-    "spec/feedzirra/parser/atom_entry_spec.rb",
-    "spec/feedzirra/parser/atom_feed_burner_spec.rb",
-    "spec/feedzirra/parser/atom_feed_burner_entry_spec.rb",
-    "spec/feedzirra/parser/rss_spec.rb",
-    "spec/feedzirra/parser/rss_entry_spec.rb",
-    "spec/feedzirra/feed_utilities_spec.rb",
-    "spec/feedzirra/feed_entry_utilities_spec.rb"]
+  s.files = FileList.new('lib/*.rb', 'lib/**/*.rb', 'README.rdoc', 'README.textile', 'Rakefile', 'spec/**/*.rb', 'spec/*.rb')
   s.has_rdoc = true
   s.homepage = %q{http://github.com/pauldix/feedzirra}
   s.require_paths = ["lib"]
