@@ -1,3 +1,14 @@
+require File.dirname(__FILE__) + '/mrss_credit'
+require File.dirname(__FILE__) + '/mrss_restriction'
+require File.dirname(__FILE__) + '/mrss_category'
+require File.dirname(__FILE__) + '/mrss_copyright'
+require File.dirname(__FILE__) + '/mrss_hash'
+require File.dirname(__FILE__) + '/mrss_player'
+require File.dirname(__FILE__) + '/mrss_rating'
+require File.dirname(__FILE__) + '/mrss_restriction'
+require File.dirname(__FILE__) + '/mrss_text'
+require File.dirname(__FILE__) + '/mrss_thumbnail'
+
 module Feedzirra
   module Parser
     # == Summary
