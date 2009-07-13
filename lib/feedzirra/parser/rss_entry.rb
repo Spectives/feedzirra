@@ -74,6 +74,13 @@ module Feedzirra
       element :'media:restriction', :as => :media_restriction, :class => MRSSRestriction
 
       elements :'media:content', :as => :media_content, :class => MRSSContent
+      element :'media:group', :as => :media_group, :class => MRSSGroup
+
+      element :'media:text', :as => :media_text_type, :value => :type
+      element :'media:text', :as => :media_text_lang, :value => :lang
+      element :'media:text', :as => :media_text_start, :value => :start
+      element :'media:text', :as => :media_text_end, :value => :end
+      element :'media:text', :as => :media_text
 
       # iTunes
       element :'itunes:author', :as => :author
