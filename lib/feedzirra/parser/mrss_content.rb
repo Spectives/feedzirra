@@ -18,6 +18,20 @@ module Feedzirra
         element :'media:content', :as => :width, :value => :width
         element :'media:content', :as => :lang, :value => :lang
         element :'media:content', :as => :fileSize, :value => :fileSize
+        
+        element :'media:title', :as => :media_title
+        element :'media:keywords', :as => :media_keywords
+        element :'media:description', :as => :media_description
+
+        element :'media:thumbnail', :as => :media_thumbnail, :class => MRSSThumbnail
+        element :'media:rating', :as => :rating, :class => MRSSRating
+        element :'media:category', :as => :media_category, :class => MRSSCategory
+        element :'media:hash', :as => :media_hash, :class => MRSSHash
+        element :'media:player', :as => :media_player, :class => MRSSPlayer
+        elements :'media:credit', :as => :credits, :class => MRSSCredit
+        element :'media:copyright', :as => :copyright, :class => MRSSCopyright
+        element :'media:restriction', :as => :media_restriction, :class => MRSSRestriction
+        element :'media:text', :as => :text, :class => MRSSText
       end
     end
   end
