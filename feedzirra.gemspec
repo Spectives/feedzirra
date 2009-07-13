@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-require 'rubygems'
-require 'rake'
 
 Gem::Specification.new do |s|
   s.name = %q{feedzirra}
