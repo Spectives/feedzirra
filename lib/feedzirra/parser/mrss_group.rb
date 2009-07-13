@@ -1,3 +1,5 @@
+require File.dirname(__FILE__) + '/mrss_content'
+
 module Feedzirra
   module Parser
     class RSSEntry

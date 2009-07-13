@@ -1,6 +1,7 @@
 require File.dirname(__FILE__) + '/mrss_content'
 require File.dirname(__FILE__) + '/mrss_credit'
 require File.dirname(__FILE__) + '/mrss_restriction'
+require File.dirname(__FILE__) + '/mrss_group'
 
 module Feedzirra
   module Parser
