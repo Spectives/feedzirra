@@ -28,6 +28,7 @@ module Feedzirra
       element :modified, :as => :updated
       elements :category, :as => :categories, :value => :term
       elements :link, :as => :links, :value => :href
+      elements :link, :as => :enclosure_links, :value => :href, :with => {:rel => "enclosure"}
       
       def url
         @url || links.first
