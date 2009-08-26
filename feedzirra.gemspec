@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-
+ 
 Gem::Specification.new do |s|
   s.name = %q{feedzirra}
   s.version = "0.0.23"
