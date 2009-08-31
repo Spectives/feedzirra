@@ -31,6 +31,7 @@ module Feedzirra
       # RSS 2.0 elements
       element :title
       element :link, :as => :url
+      element :"feedburner:origLink", :as => :url
       element :description, :as => :summary
       element :author
       elements :category, :as => :categories

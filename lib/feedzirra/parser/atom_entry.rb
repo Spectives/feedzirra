@@ -17,6 +17,7 @@ module Feedzirra
       include FeedEntryUtilities
       element :title
       element :link, :as => :url, :value => :href, :with => {:type => "text/html", :rel => "alternate"}
+      element :"feedburner:origLink", :as => :url
       element :name, :as => :author
       element :content
       element :summary
