@@ -35,12 +35,10 @@ require 'feedzirra/parser/rss_entry'
 require 'feedzirra/parser/rss_image'
 require 'feedzirra/parser/itunes_category'
 require 'feedzirra/parser/atom_entry'
-require 'feedzirra/parser/atom_feed_burner_entry'
 
 require 'feedzirra/parser/rss'
 require 'feedzirra/parser/atom'
-require 'feedzirra/parser/atom_feed_burner'
 
 module Feedzirra
-  VERSION = "0.0.27"
+  VERSION = "0.0.28"
 end
