@@ -16,8 +16,8 @@ module Feedzirra
       include SAXMachine
       include FeedEntryUtilities
       element :title
-      element :link, :as => :url, :value => :href, :with => {:type => "text/html", :rel => "alternate"}
       element :"feedburner:origLink", :as => :url
+      element :link, :as => :url, :value => :href, :with => {:type => "text/html", :rel => "alternate"}
       element :name, :as => :author
       element :content
       element :summary
