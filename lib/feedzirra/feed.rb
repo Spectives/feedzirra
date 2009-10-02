@@ -48,7 +48,6 @@ module Feedzirra
     def self.feed_classes
       @feed_classes ||= [
         Feedzirra::Parser::RSS,
-        Feedzirra::Parser::AtomFeedBurner,
         Feedzirra::Parser::Atom
       ]
     end

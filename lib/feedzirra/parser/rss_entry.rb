@@ -30,6 +30,7 @@ module Feedzirra
 
       # RSS 2.0 elements
       element :title
+      element :"feedburner:origLink", :as => :orig_url # stupid feedburner does weird things with some feeds, we need to be able to manually distinguis them
       element :link, :as => :url
       element :description, :as => :summary
       element :author

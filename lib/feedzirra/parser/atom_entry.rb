@@ -16,6 +16,7 @@ module Feedzirra
       include SAXMachine
       include FeedEntryUtilities
       element :title
+      element :"feedburner:origLink", :as => :orig_url # stupid feedburner does weird things with some feeds, we need to be able to manually distinguis them
       element :link, :as => :url, :value => :href, :with => {:type => "text/html", :rel => "alternate"}
       element :name, :as => :author
       element :content
