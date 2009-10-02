@@ -25,7 +25,7 @@ module Feedzirra
     end
     
     def update_from_feed(feed)
-      self.new_entries += find_new_entries_for(feed)
+      self.new_entries = find_new_entries_for(feed)
       self.entries.unshift(*self.new_entries)
       
       updated! if UPDATABLE_ATTRIBUTES.any? { |name| update_attribute(feed, name) }
